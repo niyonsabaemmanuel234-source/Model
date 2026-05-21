@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="modalButton">Open modal</button>
+
+    <div class="overlay hidden"></div>
+    <div class="modal hidden">
+        <button class="close">x</button>
+        <form class="form">
+            <div class="div1">
+                <label class="label">Email</label>
+                <input type="email" class="input">
+            </div>
+            <div class="div2">
+                <label class="label">Password</label>
+                <input type="password" class="input">
+            </div>
+            <button class="btn">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
